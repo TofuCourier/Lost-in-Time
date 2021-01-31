@@ -2158,6 +2158,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5123300392807125955, guid: 79f145db9e318ce48a9c5fda680ae44f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 944061b79f1527340b36cebf537483c3, type: 3}
+    - target: {fileID: 7235370759388956252, guid: 79f145db9e318ce48a9c5fda680ae44f,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1123916686}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79f145db9e318ce48a9c5fda680ae44f, type: 3}
 --- !u!1 &305375884
@@ -2843,6 +2853,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &402330521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2046560208537107826, guid: f26384691a5e40f4b8d1dc3e5aab4b72,
+    type: 3}
+  m_PrefabInstance: {fileID: 194482578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &402330522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402330521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &402330523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402330521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &405152201
 GameObject:
   m_ObjectHideFlags: 0
@@ -7996,6 +8046,18 @@ Transform:
   m_Father: {fileID: 388108314}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123916686 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2871286430946365795, guid: e8d8ec1b5a3d48c4a8263921bb4ec7b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 950431208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0458df9096bf14a4cad4e187cc185704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1149856764
 GameObject:
   m_ObjectHideFlags: 0
@@ -15161,6 +15223,18 @@ MonoBehaviour:
   speed: 3
   maxRange: 10
   minRange: 5
+--- !u!114 &1993280264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993280260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a546c4de509224ca4eca2cff1a62bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2039284298
 GameObject:
   m_ObjectHideFlags: 0
@@ -15254,6 +15328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: enemyportal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3830576272165663293, guid: ce8f3be87f449e3428bfdc8954903166,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4649548599123175782, guid: ce8f3be87f449e3428bfdc8954903166,
         type: 3}

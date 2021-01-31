@@ -178,7 +178,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Test.unity:
+    Assets/Scenes/dialogue.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -364,6 +364,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12122}
     - Class: 114
+      Script: {instanceID: 12392}
+    - Class: 114
       Script: {instanceID: 12476}
     - Class: 114
       Script: {instanceID: 12996}
@@ -376,7 +378,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14630}
     - Class: 114
+      Script: {instanceID: 14684}
+    - Class: 114
+      Script: {instanceID: 14732}
+    - Class: 114
       Script: {instanceID: 8321952}
+    - Class: 114
+      Script: {instanceID: 9401538}
+    - Class: 114
+      Script: {instanceID: 9641538}
+    - Class: 114
+      Script: {instanceID: 9641544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -439,6 +451,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12122}
     - Class: 114
+      Script: {instanceID: 12392}
+    - Class: 114
       Script: {instanceID: 12476}
     - Class: 114
       Script: {instanceID: 12996}
@@ -451,7 +465,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14630}
     - Class: 114
+      Script: {instanceID: 14684}
+    - Class: 114
+      Script: {instanceID: 14732}
+    - Class: 114
       Script: {instanceID: 8321952}
+    - Class: 114
+      Script: {instanceID: 9401538}
+    - Class: 114
+      Script: {instanceID: 9641538}
+    - Class: 114
+      Script: {instanceID: 9641544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1350,7 +1374,7 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
-  - Assets/Scenes/Test.unity
+  - Assets/Scenes/dialogue.unity
   - Assets/Scenes/level1.unity
   - Assets/Scenes/level2.unity
   - Assets/Scenes/level3.unity
