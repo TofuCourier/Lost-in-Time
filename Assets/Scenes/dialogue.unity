@@ -251,11 +251,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The time traveler Harold was having some fun in his time machine. As he
+  m_text: 'The time traveler Harold was having some fun in his time machine. As he
     was trying to travel his time machine broke. Lost in time, the broken machine
     created random portals that can teleport the player to a new world. Find the
     gears to repair your time machine and go through the portals but watch out for
     the black holes.
+
+    Use WASD to move'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
