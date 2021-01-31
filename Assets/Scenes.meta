@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 2a01e492231324c4b9caeb401da73e42
+=======
+guid: bcb6ad3b6a9145545a939cce1498ee10
+>>>>>>> origin/Paul
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
