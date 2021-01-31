@@ -600,10 +600,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Production
+  m_text: '2021
 
 
     UI
+
 
 
     Music
@@ -614,8 +615,8 @@ MonoBehaviour:
 
 
 
-    Character
-    Design
+    Character Design
+
 
 
     Programmers'
@@ -681,7 +682,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -17.307175, z: 0, w: 0}
+  m_margin: {x: 0, y: -17.307175, z: 0, w: -31.184998}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1091,34 +1092,39 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'GGC
+  m_text: 'GGJ
 
 
     Paul Rubio
 
+    Darlene Belicky
+
 
     Patrick Silva
 
-
-    Cole Portolesi
 
     Darlene
     Belicky
 
+    Cole Portolesi
+
     Chloe Burton
 
 
     Chloe Burton
+
+    Julian
+    Di Domizio
 
 
     Paul Rubio
 
-    Patrick Silva
-
-    Cole
-    Portolesi
-
     Darlene Belicky
+
+    Cole Portolesi
+
+    Patrick
+    Silva
 
     Chloe Burton'
   m_isRightToLeft: 0
@@ -1183,7 +1189,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -17.307129, z: 0, w: -1.7114868}
+  m_margin: {x: 0, y: -17.307144, z: 0, w: -37.35147}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -2,7 +2,7 @@
 //using System.Collections.Generic;
 //using UnityEngine;
 
-//public class Enemy : MonoBehaviour
+//public class enemy : MonoBehaviour
 //{
 //    public float speed;
 //    public float startWaitTime;
@@ -19,16 +19,19 @@
 //    }
 //    void Update()
 //    {
-//        if(Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+//        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * waitTime.deltaTime);
+
+//        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
 //        {
-//            if(waitTime <= 0)
+//            if (waitTime <= 0)
 //            {
 //                randomSpot = Random.Range(0, moveSpots.Length);
+//                waitTime - startWaitTime
 //            }
 //            else
 //            {
-//                waitTime -= waitTime.deltaTime;
+//                waitTime -= Time.deltaTime;
 //            }
 //        }
 //    }
-//} 
+//}

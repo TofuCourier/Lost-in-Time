@@ -1,10 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - EnemyController
+    - HealthBar
+    - HurtPlayer
     - MainMenuScript
     - MusicAndVolume
     - PauseMenu
     - PlayLevel1
+    - Player
     - PlayerMovement
     - Portal
     - endcredits
@@ -286,6 +290,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14630}
     - Class: 114
       Script: {instanceID: 14684}
+    - Class: 114
+      Script: {instanceID: 14732}
+    - Class: 114
+      Script: {instanceID: 8321952}
+    - Class: 114
+      Script: {instanceID: 9401538}
+    - Class: 114
+      Script: {instanceID: 9641538}
+    - Class: 114
+      Script: {instanceID: 9641544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -361,6 +375,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14036}
     - Class: 114
       Script: {instanceID: 14630}
+    - Class: 114
+      Script: {instanceID: 8321952}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -434,6 +450,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14036}
     - Class: 114
       Script: {instanceID: 14630}
+    - Class: 114
+      Script: {instanceID: 8321952}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1281,6 +1299,54 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
+  - hash:
+      serializedVersion: 2
+      Hash: 0fe06f342791f518a57891700c8a7855
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Patrol
+  - hash:
+      serializedVersion: 2
+      Hash: e85585f9b937afc041a83dab49cb3b96
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HurtPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 735147f2ee7307da7bb94c8c762d823e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressBarCircle
+  - hash:
+      serializedVersion: 2
+      Hash: babcddaca0e075af60191ddd2b395059
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 049da38e04b44d779517153fb9e33896
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 4b8dff74c0603f3e6246514a412ffcba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthBar
+  - hash:
+      serializedVersion: 2
+      Hash: f00f953b1b906332d5cd6a409e461eea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
