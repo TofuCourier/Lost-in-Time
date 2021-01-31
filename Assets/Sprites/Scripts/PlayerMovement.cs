@@ -49,12 +49,12 @@ public class PlayerMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("item"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
-            if (count >= 5)
+            if (count >= 1)
             {
                 Destroy(GameObject.FindWithTag("door"));
             }

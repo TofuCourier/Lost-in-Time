@@ -19,7 +19,7 @@ public class Portal : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            gm.InputText.text = ("[E] to Enter");
+            gm.InputText.text = ("[e] to Enter");
         }
     }
 
@@ -34,11 +34,11 @@ public class Portal : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D col)
-    {
-        if (col.CompareTag("Player"))
-        {
-            gm.InputText.text = (" ");
-        }
-    }
+    //void OnTriggerExit2D(Collider2D col)
+    //{
+    //    if (col.CompareTag("Player"))
+    //    {
+    //        gm.InputText.text = (" ");
+    //    }
+    //}
 }

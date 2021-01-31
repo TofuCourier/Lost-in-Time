@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Portal
   - GameMaster
+  - item
+  - door
   layers:
   - Default
   - TransparentFX
