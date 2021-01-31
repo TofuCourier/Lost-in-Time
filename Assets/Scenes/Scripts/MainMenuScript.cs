@@ -7,7 +7,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Credits"); //Loads into our first level when pressing play
+        SceneManager.LoadScene("Test"); //Loads into our first level when pressing play
     }
     public void QuitGame()
     {
